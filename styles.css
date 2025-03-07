@@ -1,0 +1,26 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #17153B
+}
+
+h1 {
+    color: #FF204E;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 21px;
+    margin: 20px;
+}
+
+label {
+    color: #FF204E;
+    text-align: center;
+}
