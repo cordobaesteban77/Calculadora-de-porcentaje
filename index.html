@@ -9,13 +9,16 @@
 <body>
     <h1>EZ porcentaje calculator</h1>
     <form>
-        <label for="numero">Numero</label>
+        <label for="numero">Número</label>
         <input type="number" id="numero" name="numero" required>
 
         <label for="porcentaje">Porcentaje</label>
         <input type="number" id="porcentaje" name="porcentaje" required>
 
-        <textarea name="resultado" id="resultado"></textarea>
+        <div class="resultado">
+            <label for="resultado">Resultado</label>
+            <textarea name="resultado" id="resultado"></textarea>
+        </div>
 
         <button>Calcular</button>
     </form>

@@ -17,10 +17,33 @@ form {
     display: flex;
     flex-direction: column;
     padding: 21px;
-    margin: 20px;
+    margin: 21px;
+    border: 2px solid #A0153E;
+    border-radius: 15px;
+    height: 500px;
 }
 
 label {
     color: #FF204E;
     text-align: center;
+}
+
+input {
+    height: 20px;
+    border-radius: 15px;
+}
+
+.resultado {
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    border-radius: 15px;
+}
+
+button {
+    margin: 20px;
+    border-radius: 15px;
 }
