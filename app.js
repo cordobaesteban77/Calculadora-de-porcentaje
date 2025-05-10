@@ -6,5 +6,17 @@
 // mostrar el porcentaje
 // preguntar si desea calcular otro numero//
 
+const calcularPorcentaje = (numero, porcentaje) => {
+    let resultado = (numero * porcentaje) / 100
+    return resultado
+}
 
-const calcularPorcentaje = (numero, porcentaje) => (numero * porcentaje) / 100
+document.getElementById("form")
+.addEventListener("submit", function(event) {
+    event.preventDefault()
+    let numero = Number(document.getElementById("numero").value)
+    let porcentaje = Number(document.getElementById("porcentaje").value)
+    let resultado = calcularPorcentaje(numero, porcentaje)
+    let mensaje = `El ${porcentaje}% de ${numero} es ${resultado}`
+    document.getElementById("resultado").value = mensaje
+})
