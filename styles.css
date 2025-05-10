@@ -29,8 +29,10 @@ label {
 }
 
 input {
-    height: 20px;
+    height: 100px;
     border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .resultado {
@@ -41,6 +43,9 @@ input {
 
 textarea {
     border-radius: 15px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
 }
 
 button {
