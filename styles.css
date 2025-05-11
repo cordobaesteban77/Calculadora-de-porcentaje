@@ -35,6 +35,11 @@ input {
     font-size: 30px;
 }
 
+:placeholder-shown {
+    font-size: 20px;
+    text-align: start;
+}
+
 .resultado {
     margin-top: 21px;
     display: flex;
