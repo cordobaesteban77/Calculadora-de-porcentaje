@@ -18,8 +18,6 @@ form {
     flex-direction: column;
     padding: 21px;
     margin: 21px;
-    border: 2px solid #A0153E;
-    border-radius: 15px;
     height: 500px;
 }
 
