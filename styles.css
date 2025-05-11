@@ -55,5 +55,11 @@ textarea {
 
 button {
     margin: 20px;
-    border-radius: 15px;
+    border-radius: 7px;
+    height: 50px;
+    font-size: 20px;
+}
+
+button:active {
+    background-color: #FF204E;
 }
