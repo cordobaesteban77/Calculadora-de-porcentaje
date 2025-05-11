@@ -14,8 +14,8 @@ const calcularPorcentaje = (numero, porcentaje) => {
 document.getElementById("form")
 .addEventListener("submit", function(event) {
     event.preventDefault()
-    let numero = Number(document.getElementById("numero").value)
-    let porcentaje = Number(document.getElementById("porcentaje").value)
+    let numero = parseFloat(document.getElementById("numero").value)
+    let porcentaje = parseFloat(document.getElementById("porcentaje").value)
     let resultado = calcularPorcentaje(numero, porcentaje)
     let mensaje = `El ${porcentaje}% de ${numero} es ${resultado}`
     document.getElementById("resultado").value = mensaje
