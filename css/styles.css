@@ -19,13 +19,18 @@ form {
     align-items: center;
     padding: 21px;
     margin: 21px;
-    height: 600px;
+    height: 626px;
+    margin-top: 2px;
 }
 
 label {
     color: #FF204E;
     text-align: center;
     font-size: 20px;
+}
+
+.label-porcentaje {
+    margin-top: 15px;
 }
 
 input {
