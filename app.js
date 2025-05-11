@@ -20,3 +20,8 @@ document.getElementById("form")
     let mensaje = `El ${porcentaje}% de ${numero} es ${resultado}`
     document.getElementById("resultado").value = mensaje
 })
+
+const limpiarFormulario = () => {
+    document.getElementById("form").reset()
+    document.getElementById("resultado").value= ""
+}
