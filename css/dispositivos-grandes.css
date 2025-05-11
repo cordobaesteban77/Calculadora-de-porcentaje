@@ -1,6 +1,27 @@
 @media (min-width: 1024px) {
+
+    input {
+    width: 400px;
+    }
+
+    .resultado {
+    width: 400px;
+    }
+
+    #resultado {
+        width: 100%;
+    }
+
+    .botones{
+        margin-top: 30px;
+    }
+
+    button {
+        transition: background-color 0.4s linear;
+    }
+
     button:hover {
     background-color: #FF204E;
     cursor: pointer;
-}
+    }
 }
