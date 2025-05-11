@@ -16,9 +16,14 @@ document.getElementById("form")
     event.preventDefault()
     let numero = parseFloat(document.getElementById("numero").value)
     let porcentaje = parseFloat(document.getElementById("porcentaje").value)
-    let resultado = calcularPorcentaje(numero, porcentaje)
-    let mensaje = `El ${porcentaje}% de ${numero} es ${resultado}`
-    document.getElementById("resultado").value = mensaje
+    if(numero && porcentaje) {
+        let resultado = calcularPorcentaje(numero, porcentaje)
+        let mensaje = `El ${porcentaje}% de ${numero} es ${resultado}`
+        document.getElementById("resultado").value = mensaje
+    }
+    else{
+        alert("Debe ingresar un número en los campos Número y Porcentaje")
+    }
 })
 
 const limpiarFormulario = () => {
